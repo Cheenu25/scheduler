@@ -1,0 +1,130 @@
+.header-container{
+  background-color: black;
+  color: white;
+  padding: 30px;
+  display: flex;
+}
+
+body{
+  margin: 0;
+}
+
+.header{
+  margin: 0px;
+}
+
+.homepage-content{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.homepage-btn{
+  display: flex;
+  gap: 30px;
+}
+
+.signup-content{
+  height: 80vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.signup-inputs{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login-content{
+  height: 80vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.login-inputs{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main-content{
+  display:flex;
+}
+
+.today-container{
+ margin-top: 50px;
+ display: flex;
+ width: 60%;
+ justify-content: center;
+}
+
+.today-input{
+  width: 400px;
+  height: 30px;
+}
+
+.end-decorator-btn{
+  display: flex;
+}
+
+.today-task-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+
+.today-card{
+  display: flex;
+}
+
+.upcoming-container{
+  display: flex;
+  height: 80vh;
+  width: 80%;
+  padding-left: 50px;
+  padding-top: 50px;
+  gap: 10px;
+}
+
+.compTask-container{
+  display: flex;
+  height: 80vh;
+  width: 65%;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.comptask-card{
+  display: flex;
+  gap: 10px;
+}
+
+.deltask-container{
+  display: flex;
+  height: 80vh;
+  width: 65%;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.deltask-card{
+  display: flex;
+  gap: 10px;
+}
+
